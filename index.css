@@ -1,0 +1,172 @@
+html, body {
+    background-color: rgb(230, 236, 243) ;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header {
+    background-color:rgb(0,47,108);
+}
+
+.logo1 {
+    width: 3%;
+}
+
+.menu-item {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    align-self: center 
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image1 {
+    display:block;
+    width:40%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.but-shop {
+    color: white;
+    background-color: rgb(0,47,108);
+    padding:10px;
+}
+
+.but-join {
+    color: white;
+    background-color: rgb(0,47,108);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.bus-name {
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.quest {
+    font-size: 20px;
+    font-weight: bold;
+}
+.top-content {
+    padding:20px;
+    display:flex;
+    text-decoration: none;
+}
+
+.middle-content {
+    background-color:rgb(51, 110, 186) ;
+    display: flex;
+    padding: 20px;
+    color:white;
+}
+
+.bottom-content {
+    display: flex;
+    margin:20px;
+}
+
+.bottom-footer1 {
+    background-color: rgb(0,47,108);
+    padding:20px;
+    display:flex;
+    text-decoration: none;
+}
+
+.bottom-footer2 {
+    background-color: rgb(0,47,108);
+    padding:20px;
+    display:flex;
+    text-decoration: none;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.column-1 {
+    color: black;
+    text-decoration: none;
+    flex: 50%;
+}
+
+.column-2 {
+    color: white;
+    text-decoration: none;
+    flex: 33%;
+}
+
+.column-3 {
+    flex: 50%;
+    padding: 20px;
+}
+
+.column-4 {
+    color: white;
+    text-decoration: none;
+    flex: 50%;
+}
+
+/* Shop Page */
+#mySearch {
+    width: 98.25%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+}
+  
+#myMenu li a:hover {
+    background-color: #eee;
+}
+
+.til {
+    text-align: center;
+}
+
+/* Join Us Page */
+
+.join {
+    display: flex;
+}
+
+.column-5 {
+    flex: 50%;
+    padding:20px;
+}
+
+.big {
+    font-size: 50px;
+}
+
+/* District Page */
+
+.district {
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+}
